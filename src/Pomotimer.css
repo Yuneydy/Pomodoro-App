@@ -1,0 +1,267 @@
+/*----------------- ENTIRE PAGE ----------------------*/
+body {
+    background-color: #e6ecec;
+    width: 100%;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+/*------------------- NAV BAR -----------------------*/
+nav {
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav-item{
+    font-size: 1.7rem;
+    font-family: "Manrope", sans-serif;
+    padding: 10px;
+    margin-left: 20px;
+    color:white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #589373;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.nav-item:hover, button:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px inset;
+}
+
+h1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #4d7a4f;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  
+  h1 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+  }
+  h1 em {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .nine h1 {
+    text-align:center; 
+    font-size:50px; 
+    text-transform:uppercase; 
+    color:#529384; 
+    letter-spacing:1px;
+    font-family:"Manrope", sans-serif;
+    font-weight: bold;
+    background-color: white;
+  }
+  .nine h1 span {
+      margin-top: 5px;
+      font-size:15px; color:#8778ab; 
+      word-spacing:1px; 
+      font-weight:normal; 
+      letter-spacing:2px;
+      text-transform: uppercase; 
+      font-family:"Manrope", sans-serif;
+      font-weight:500;
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-template-rows: 27px 0;
+      grid-gap: 20px;
+      align-items: center;
+  }
+  
+  .nine h1 span:after,.nine h1 span:before {
+      content: " ";
+      display: block;
+      border-bottom: 1px solid #589373;
+      border-top: 1px solid #589373;
+      height: 5px;
+      background-color:#f8f8f8;
+  }
+
+.btn {
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 1.7rem;
+    padding: 5px 15px;
+
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    color: #ffffff;
+
+    border-style: none;
+    background-color: #a3977c;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+/*------------------- TIMER -----------------------*/
+.timer {
+    border-style: none;
+    background-color: #e8fff3;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 20px;
+}
+
+.timerButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.setTimeButtons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.s-btn {
+    font-size: 1.2rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 15px;
+    color:white;
+    background-color: #e7d96f;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.s-btn::after {
+    background-color: #8778ab;
+}
+
+#add-link {
+    background-color: #83bfe2;
+    font-size: 1.4rem;
+    margin-left: 15px;
+}
+.music {
+    margin-top:  20px;
+    margin-bottom: -40px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.spot {
+    max-width: 500px;
+}
+
+input {
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid rgb(233, 233, 233);
+    border-radius: 8px;
+    color: black;
+}
+/*------------------- Profile -----------------------*/
+.profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Manrope", sans-serif;
+  }
+  
+  .profile-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .profile-header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-header h1 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .profile-header p {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .profile-details {
+    padding: 20px;
+  }
+  
+  .profile-details h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .profile-details p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.4;
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .profile-details ul li {
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 1.7rem;
+    padding: 5px 15px;
+
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    color: #ffffff;
+
+    border-style: none;
+    background-color: #a09d97;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+
+  #goals {
+    background-color: #e7d96f;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .profile-details ul li:before {
+    content: "\2022"; /* Bullet character */
+    color: #333;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    display: none;
+  }

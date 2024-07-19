@@ -1,0 +1,104 @@
+.toDo {
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.t-btn {
+    font-size: 1.7rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    color:white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.t-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px 0px inset;
+}
+.completed {
+    margin-left: 10px;
+    background-color: rgb(86, 98, 97);
+}
+
+#add-button {
+    background-color: rgb(124, 196, 191);
+    margin-left: 20px;
+}
+
+#delete-all-button {
+    background-color: rgb(212, 141, 169);
+    margin-left: 10px;
+}
+#delete-button {
+    background-color: rgb(212, 125, 125);
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+#up-button {
+    background-color: rgb(181, 142, 218);
+}
+#down-button {
+    background-color: rgb(216, 147, 215);
+}
+#priority-button {
+    background-color: rgb(231, 176, 129);
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+
+input[type='text']{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid rgb(233, 233, 233);
+    border-radius: 8px;
+    color: black;
+}
+
+ol{
+    padding: 0;
+}
+
+li {
+    font-size: 2rem;
+    font-weight: semi-bold;
+    padding: 15px;
+    margin: 10px 0px;
+    background-color:white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.delete-button, .move-button {
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+#checked, #unchecked{
+    cursor: pointer; 
+    color: rgb(96, 194, 148);
+    font-size: 40px;
+}
+.check {
+    color: #6689ac;
+}
+
+.active-task {
+    background-color: rgb(152, 238, 198);
+     text-decoration: line-through;
+}
+
+.inactive-task {
+    background-color: white;
+   
+}

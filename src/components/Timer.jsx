@@ -146,7 +146,7 @@ const Timer = () => {
           <div class="music">
             <div>
               <input
-                placeholder='Give me a playlist...' 
+                placeholder='Playlist...' 
                 onChange={onLinkChange}
                 value={value}
               />
